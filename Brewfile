@@ -15,6 +15,8 @@ brew 'pkg-config'
 brew 'svn'
 
 # Development
+brew 'cash-cli'
+brew 'cocoapods'
 brew 'composer'
 brew 'dart'
 brew 'imagemagick'
