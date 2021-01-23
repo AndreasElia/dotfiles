@@ -1,9 +1,11 @@
-# !/bin/sh
+#!/bin/sh
 
 echo "Installing..."
 
 # Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+if test ! $(which brew); then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+fi
 
 # Install Brewfile
 brew tap homebrew/bundle
