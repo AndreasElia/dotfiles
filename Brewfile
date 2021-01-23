@@ -28,7 +28,7 @@ brew 'sqlite'
 
 # Apps
 cask 'adoptopenjdk8'
-cask 'android-studio'
+cask 'android-studio-preview-beta'
 cask 'discord'
 cask 'docker'
 cask 'flutter'
@@ -44,6 +44,7 @@ cask 'spotify'
 cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'whatsapp'
 cask 'webtorrent'
 
 # Fonts
