@@ -27,5 +27,5 @@ git clone https://github.com/AndreasElia/dotfiles.git
 
 Run the setup:
 ```bash
-setup.sh
+cd ./dotfiles && ./setup.sh
 ```
