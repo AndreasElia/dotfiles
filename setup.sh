@@ -1,4 +1,4 @@
-# !/bin/bash
+# !/bin/sh
 
 echo "Installing..."
 
@@ -13,6 +13,6 @@ brew bundle
 /usr/local/bin/composer global require laravel/installer
 
 # Symlink the .zshrc
-ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+# ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 echo "Done!"
