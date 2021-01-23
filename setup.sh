@@ -12,9 +12,13 @@ brew tap homebrew/bundle
 brew bundle
 
 # Install Composer packages
-/usr/local/bin/composer global require laravel/installer
+/opt/homebrew/bin/composer global require laravel/installer
 
 # Symlink the .zshrc
-# ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+rm -rf $HOME/.zshrc
+ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
+# Setup macOS permissions
+source .macos
 
 echo "Done!"

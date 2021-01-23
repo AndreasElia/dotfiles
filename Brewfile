@@ -1,4 +1,5 @@
 # Taps
+tap 'dart-lang/dart'
 tap 'homebrew/bundle'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
@@ -15,18 +16,22 @@ brew 'svn'
 
 # Development
 brew 'composer'
+brew 'dart'
 brew 'imagemagick'
 brew 'nginx'
 brew 'node'
 brew 'mysql'
 brew 'php'
+brew 'php@7.4'
 brew 'redis'
 brew 'sqlite'
 
 # Apps
+cask 'adoptopenjdk8'
 cask 'android-studio'
 cask 'discord'
 cask 'docker'
+cask 'flutter'
 cask 'github'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
