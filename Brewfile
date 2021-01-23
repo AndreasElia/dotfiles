@@ -11,6 +11,7 @@ brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'pkg-config'
+brew 'svn'
 
 # Development
 brew 'composer'
