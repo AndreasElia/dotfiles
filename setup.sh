@@ -12,7 +12,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Install Composer packages
-/opt/homebrew/bin/composer global require laravel/installer
+/opt/homebrew/bin/composer global require laravel/installer beyondcode/expose
 
 # Symlink the .zshrc
 rm -rf $HOME/.zshrc
